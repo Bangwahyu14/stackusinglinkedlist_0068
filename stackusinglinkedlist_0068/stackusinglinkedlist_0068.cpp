@@ -79,7 +79,18 @@ int main() {
 			if (!stack.isEmpty()) {
 				stack.pop();//pop the top element from the stack
 			}
-
+			else {
+				cout << "stack is empty. cannot pop." << endl;
+			}
+			break;
+		case 3:
+			if (!stack.isEmpty()) {
+				stack.peek(); //get the value of the top element
+			}
+			else {
+				cout << "stack is empty.no top value." << endl;
+			}
+			break;
 		}
 		
 	}
