@@ -66,6 +66,8 @@ int main() {
 		cout << "2.pop\n";
 		cout << "3.peek\n";
 		cout << "4.exit\n";
+		cout << "enter your choice: ";
+		cin >> choice;
 	}
 
 
