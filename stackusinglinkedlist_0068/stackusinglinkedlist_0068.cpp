@@ -32,6 +32,13 @@ public:
 		return value;
 	}
 
+	//peek/top operation retrive the value of the topmost element witout removing it
+	void peek() {
+		if (top == NULL) {
+			cout << "List is empaty." << endl;
+		}
+	}
+
 	
 
 };
