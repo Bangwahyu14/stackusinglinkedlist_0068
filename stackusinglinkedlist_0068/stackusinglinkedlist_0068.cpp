@@ -99,10 +99,10 @@ int main() {
 			cout << "incalid choice. try again." << endl;
 			break;
 		}
+		cout << endl;
 		
 	}
-
-
+	return 0;
 
 }
 
