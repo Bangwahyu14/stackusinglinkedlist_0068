@@ -91,6 +91,13 @@ int main() {
 				cout << "stack is empty.no top value." << endl;
 			}
 			break;
+
+		case 4:
+			cout << "Exiting program." << endl;
+			break;
+		default:
+			cout << "incalid choice. try again." << endl;
+			break;
 		}
 		
 	}
